@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','elms');
+define('DB_HOST','z3iruaadbwo0iyfp.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+define('DB_USER','woledewihiw4wnio');
+define('DB_PASS','q5pdn5hmsnx3lx3b');
+define('DB_NAME','inliyotpgo2b372c');
 // Establish database connection.
 try
 {
