@@ -96,13 +96,13 @@ if (isset($_POST['signin'])) {
                                 <span class="card-title text-danger" style="font-size:20px;color: #6666ff !important;">Employee Login</span>
                                 <?php if ($msg) { ?><div class="errorWrap"><strong>Error</strong> : <?php echo htmlentities($msg); ?> </div><?php } ?>
                                 <div class="row">
-                                    <form class="col col-md-12 " name="signin" method="post">
+                                    <form class="col col-md-12 " name="signin" method="post" autocomplete="off">
                                         <div class="input-field col s12">
-                                            <input id="username" type="text" name="username" class="validate" autocomplete="none" required>
+                                            <input id="username" type="text" name="username" class="validate" autocomplete="off" required>
                                             <label for="email">Enter Registered Email Id</label>
                                         </div>
                                         <div class="input-field col col-md-12">
-                                            <input id="password" type="password" class="validate" name="password" autocomplete="none" required>
+                                            <input id="password" type="password" class="validate" name="password" autocomplete="off" required>
                                             <label for="password">Enter Password</label>
                                         </div>
                                         <div class="col col-md-12 center m-t-sm">
